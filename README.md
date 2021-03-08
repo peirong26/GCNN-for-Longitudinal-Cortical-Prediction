@@ -12,7 +12,7 @@ Arxiv: [https://arxiv.org/abs/2009.02797](https://arxiv.org/abs/2009.02797)
 
     
     @InProceedings{liu2019cortical,
-    title="Deep Modeling of Growth Trajectories for Longitudinal Prediction of Missing Infant Cortical Surfaces",
+    title={Deep Modeling of Growth Trajectories for Longitudinal Prediction of Missing Infant Cortical Surfaces},
     author={Peirong Liu and Zhengwang Wu and Gang Li and Pew-Thian Yap and Dinggang Shen}, 
     booktitle={Information Processing in Medical Imaging (IPMI)},
     publisher={Springer International Publishing},
