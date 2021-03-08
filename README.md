@@ -1,4 +1,23 @@
-# GCNN-for-Longitudinal-Prediction
-Deep Modeling of Growth Trajectories for Longitudinal Prediction of Missing Infant Cortical Surfaces
+# GCNN for Brain Longitudinal Prediction
 
-Charting cortical growth trajectories is of paramount importance for understanding brain development. However, such analysis necessitates the collection of longitudinal data, which can be challenging due to subject dropouts and failed scans. In this paper, we will introduce a method for longitudinal prediction of cortical surfaces using a spatial graph convolutional neural network (GCNN), which extends conventional CNNs from Euclidean to curved manifolds. The proposed method is designed to model the cortical growth trajectories and jointly predict inner and outer cortical surfaces at multiple time points. Adopting a binary flag in loss calculation to deal with missing data, we fully utilize all available cortical surfaces for training our deep learning model, without requiring a complete collection of longitudinal data. Predicting the surfaces directly allows cortical attributes such as cortical thickness, curvature, and convexity to be computed for subsequent analysis. We will demonstrate with experimental results that our method is capable of capturing the nonlinearity of spatiotemporal cortical growth patterns and can predict cortical surfaces with improved accuracy.
+This repository contains the code and experiments for our paper:
+
+Deep Modeling of Growth Trajectories for Longitudinal Prediction of Missing Infant Cortical Surfaces - IPMI 2019 (Oral Presentation)
+
+Springer: [https://link.springer.com/chapter/10.1007/978-3-030-20351-1_21](https://link.springer.com/chapter/10.1007/978-3-030-20351-1_21)
+
+Arxiv: [https://arxiv.org/abs/2009.02797](https://arxiv.org/abs/2009.02797)
+
+## Cite this work
+
+    
+    @InProceedings{liu2019cortical,
+    title="Deep Modeling of Growth Trajectories for Longitudinal Prediction of Missing Infant Cortical Surfaces",
+    author={Peirong Liu and Zhengwang Wu and Gang Li and Pew-Thian Yap and Dinggang Shen}, 
+    booktitle={Information Processing in Medical Imaging (IPMI)},
+    publisher={Springer International Publishing},
+    year={2019},
+    pages={277--288}
+    }
+    
+
